@@ -1,0 +1,102 @@
+    //Tablet and Smaller
+    @media(max-width:800px) {
+        //Main Landing Page
+        #header {
+            &-home {
+                height: 70vh;
+                .header-content h1 {
+                    font-size: 3rem;
+                }
+                .header-content p {
+                    font-size: 1.5rem;
+                    padding: 1rem;
+                }
+            }
+        }
+        //Home Section - Personal Info
+        #home {
+            &-b {
+                .specials {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+        }
+        //Work Item Grid
+        .items {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    //Smartphones
+    @media(max-width:500px) {
+        //Main Landing Page
+        #header {
+            &-home {
+                .header-content h1 {
+                    font-size: 2rem;
+                }
+                .header-content p {
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+        //Navigation Bar
+        #main-nav {
+            li {
+                padding: 0.5rem;
+                // flex-direction: column;
+            }
+            a {
+                font-size: 1.2rem;
+            }
+        }
+        //Home Section - Personal Info + Resume Link
+        #home {
+            &-a {
+                p {
+                    font-size: 15px;
+                }
+            }
+            &-b {
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        //Work Item Grid
+        .items {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        //Contact Form
+        #contact {
+            &-a {
+                .text-fields {
+                    display: block;
+                    input {
+                        margin: 0.5rem;
+                    }
+                    textarea {
+                        margin: 0.5rem 0;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        //Footer
+        #home-footer {
+            .footer-content {
+                p {
+                    font-size: 0.8rem;
+                }
+                .social {
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }

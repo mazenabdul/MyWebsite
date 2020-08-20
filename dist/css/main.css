@@ -112,6 +112,50 @@
     margin: 10px 0;
     font-size: 0.9rem; }
 
+@media (max-width: 800px) {
+  #header-home {
+    height: 70vh; }
+    #header-home .header-content h1 {
+      font-size: 3rem; }
+    #header-home .header-content p {
+      font-size: 1.5rem;
+      padding: 1rem; }
+  #home-b .specials {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 500px) {
+  #header-home .header-content h1 {
+    font-size: 2rem; }
+  #header-home .header-content p {
+    font-size: 1rem;
+    padding: 1rem; }
+  #main-nav li {
+    padding: 0.5rem; }
+  #main-nav a {
+    font-size: 1.2rem; }
+  #home-a p {
+    font-size: 15px; }
+  #home-b p {
+    font-size: 15px; }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  #contact-a .text-fields {
+    display: block; }
+    #contact-a .text-fields input {
+      margin: 0.5rem; }
+    #contact-a .text-fields textarea {
+      margin: 0.5rem 0;
+      width: 300px; }
+  #home-footer .footer-content p {
+    font-size: 0.8rem; }
+  #home-footer .footer-content .social img {
+    width: 20px; } }
+
 * {
   padding: 0;
   margin: 0; }
@@ -293,3 +337,47 @@ li {
     margin: 5px; }
   #home-footer .footer-content .social img {
     width: 30px; }
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 70vh; }
+    #header-home .header-content h1 {
+      font-size: 3rem; }
+    #header-home .header-content p {
+      font-size: 1.5rem;
+      padding: 1rem; }
+  #home-b .specials {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 500px) {
+  #header-home .header-content h1 {
+    font-size: 2rem; }
+  #header-home .header-content p {
+    font-size: 1rem;
+    padding: 1rem; }
+  #main-nav li {
+    padding: 0.5rem; }
+  #main-nav a {
+    font-size: 1.2rem; }
+  #home-a p {
+    font-size: 15px; }
+  #home-b p {
+    font-size: 15px; }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  #contact-a .text-fields {
+    display: block; }
+    #contact-a .text-fields input {
+      margin: 0.5rem; }
+    #contact-a .text-fields textarea {
+      margin: 0.5rem 0;
+      width: 300px; }
+  #home-footer .footer-content p {
+    font-size: 0.8rem; }
+  #home-footer .footer-content .social img {
+    width: 20px; } }
