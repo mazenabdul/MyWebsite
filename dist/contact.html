@@ -38,14 +38,14 @@
             <p>Fill the form below to get in touch regarding any requests or opportunities</p>
             <hr class="bottom-line">
 
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
                 <div class="text-fields">
 
-                    <input class="text-input name-input" type="text" id="name" placeholder="Name">
-                    <input class="text-input email-input" type="email" id='email' placeholder="E-Mail">
-                    <input class="text-input subject-input" type="text" id="subject" placeholder="Subject">
-                    <input class="text-input phone-input" type="number" id="number" placeholder="Phone Number">
-                    <textarea name="" id="" cols="30" rows="10" class="text-input message-input" placeholder="Enter a message"></textarea>
+                    <input name="name" class="text-input name-input" type="text" id="name" placeholder="Name">
+                    <input name="email" class="text-input email-input" type="email" id='email' placeholder="E-Mail">
+                    <input name="subject" class="text-input subject-input" type="text" id="subject" placeholder="Subject">
+                    <input name="phone" class="text-input phone-input" type="number" id="number" placeholder="Phone Number">
+                    <textarea name="message" id="" cols="30" rows="10" class="text-input message-input" placeholder="Enter a message"></textarea>
                 </div>
 
                 <button class="btn-dark" type="submit">Submit</button>
